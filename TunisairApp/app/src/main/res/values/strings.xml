@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Tunisair</string>
+    <string name="app_title">Get Closer</string>
+    <string name="app_subtitle">TUNISAIR APP</string>
+    <string name="add_holiday_permission">Add Holiday Permission</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="demandes_de_cong">Request Leaves</string>
+    <string name="demandes_d_autorisation">Request Authorization</string>
+    <string name="demande_history">Demandes History</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="hello_text">Hello there, Welcome Back</string>
+    <string name="sign_in_text">Sign In to continue</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="forget_password_text">Forget Password</string>
+    <string name="btnSignIn">Sign In</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_demande_conge">Add Leave Request</string>
+    <string name="add_your_auth_demand_here">Add Your Authorization Request Here</string>
+    <string name="add_your_leave_demand_here">Add Your Leave Request Here</string>
+    <string name="fill_the_form_below_to_pass_your_demand">Fill the form below to pass your Request</string>
+    <string name="begin_date">Begin Date</string>
+    <string name="end_date">End Date</string>
+    <string name="btn_validate">Validate</string>
+    <string name="your_description">Your Description</string>
+    <string name="demande_de_cong">Leave Request</string>
+    <string name="demande_d_autorisation">Request Authorization</string>
+    <string name="add_demande_autorisation">Add Authorization Request</string>
+    <string name="leave_s_history">Leave\'s History</string>
+    <string name="from">From :" "</string>
+    <string name="to">To :" "</string>
+    <string name="request_state">Request State :" "</string>
+    <string name="date">Date :" "</string>
+    <string name="authorization_requests">Authorization Requests</string>
+    <string name="title">Title :" "</string>
+    <string name="from_hint">From</string>
+    <string name="tunisair_s_logo">TUNISAIR\'S LOGO</string>
+    <string name="to_hint">To</string>
+    <string name="reason">Reason</string>
+    <string name="justification_hint">Description</string>
+    <string name="file_hint">File</string>
+    <string name="type_hint">Type</string>
+
+    <string name="aaaaaaa">MyAndroidApp</string>
+    <string name="type_prompt">Choose your Request Type</string>
+    <string name="click_to_attach_file">Click to Attach file</string>
+    <string name="number_of_days">Number of days</string>
+    <string name="welcome_to_our_app">Welcome to our App</string>
+    <string name="fly_with_us">Fly with us !</string>
+
+    <string-array name="type_arrays">
+    <item>Annual leave</item>
+    <item>Medical leave</item>
+    <item>Breavement leave</item>
+    <item>Birth leave</item>
+    <item>Marriage leave</item>
+    </string-array>
+</resources>

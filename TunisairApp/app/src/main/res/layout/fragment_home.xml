@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.HomeFragment"
+    android:layout_marginTop="@dimen/_46sdp"
+    android:background="@drawable/tunisair_wallpaper">
+
+<!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/logo_img"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="180dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center|top"
+        android:src="@drawable/logo" />
+
+</FrameLayout>

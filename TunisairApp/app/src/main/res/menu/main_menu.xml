@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/nav_home"
+            android:icon="@drawable/ic_dashboard"/>
+    </group>
+    <item android:title="@string/demande_de_cong">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/list_demande_conge"
+                    android:title="@string/demandes_de_cong"
+                    android:icon="@drawable/ic_insert_drive_file"/>
+                <item
+                    android:id="@+id/add_demande_conge"
+                    android:title="@string/add_demande_conge"
+                    android:icon="@drawable/ic__add"
+                    android:iconTint="@color/white"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/demande_d_autorisation">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/list_demande_autorisation"
+                    android:title="@string/demande_d_autorisation"
+                    android:icon="@drawable/ic_insert_drive_file"/>
+                <item
+                    android:id="@+id/add_demande_autorisation"
+                    android:title="@string/add_demande_autorisation"
+                    android:icon="@drawable/ic__add"
+                    android:iconTint="@color/white"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/logout"
+                    android:icon="@drawable/logout"
+                    android:iconTint="@color/white"/>
+            </group>
+        </menu>
+    </item>
+</menu>

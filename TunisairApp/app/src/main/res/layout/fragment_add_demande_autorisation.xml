@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.AddDemandeAutorisationFrag"
+    android:layout_marginTop="@dimen/_50sdp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="vertical"
+            android:padding="20dp"
+            tools:context=".Controller.Pages.LoginActivity"
+            tools:ignore="RtlHardcoded">
+
+        <ImageView
+            android:id="@+id/logo_img"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/tunisair_s_logo" />
+
+        <TextView
+            android:id="@+id/logo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="@string/add_your_auth_demand_here"
+            android:textColor="@color/myblue"
+            android:textSize="28sp"
+            android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/slogan_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fill_the_form_below_to_pass_your_demand"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/heure_debut"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:hint="@string/from_hint"
+                    android:inputType="time"
+                    tools:ignore="Autofill" />
+
+                <EditText
+                    android:id="@+id/heure_fin"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:hint="@string/to_hint"
+                    android:inputType="time"
+                    android:autofillHints="" />
+
+            </LinearLayout>
+            <EditText
+                android:id="@+id/raison"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/reason"
+                android:inputType="text"
+                android:autofillHints="" />
+            <Button
+                android:id="@+id/btn_ValidLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/myblue"
+                android:text="@string/btn_validate"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

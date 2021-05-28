@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tunisairapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tunisair"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/tunisair"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TunisairApp">
+        <activity android:name=".views.activities.DetailsDemandeActivity"/>
+        <activity android:name=".views.activities.LoginActivity" />
+        <activity android:name=".views.activities.HomeActivity" />
+        <activity android:name=".views.activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

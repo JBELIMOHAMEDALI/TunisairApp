@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="10dp"
+    android:layout_margin="5dp"
+    android:id="@+id/cardView">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_155sdp"
+                android:layout_marginTop="@dimen/_10sdp">
+                <TextView
+                    android:id="@+id/titre"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/txtTitreType"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_20sdp">
+                <TextView
+                    android:id="@+id/txtFrom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/from"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/date_debut"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/txtTo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/date_fin"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_20sdp">
+                <TextView
+                    android:id="@+id/txtEtat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/request_state"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/etatLeaveReq"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
